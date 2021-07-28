@@ -1,0 +1,11 @@
+Are these tests stable/will they give us false positives?
+These tests can seem to pass, but not do what we expect them to do. For example, I had a tough time getting a screenshot,
+even though the test passed.
+
+Do these tests miss bugs you could find manually following the same processes?
+Though I do not believe it will miss bugs in what it is currently testing, I belive little mistakes can bring it there. 
+Manual testing will ultimately take longe to execute, but leaves less room for error or missed coverage.
+
+What would you change about the testing if you were given enough time?
+I would abstract the "add employee" function to another class to clean up the code and not have to write a test for each of the
+individual parts to each employee card.
